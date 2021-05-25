@@ -1,0 +1,271 @@
+<VAST version="4.2" xmlns="http://www.iab.com/VAST">
+  <Ad id="20008" sequence="1" conditionalAd="false">
+    <Wrapper>
+      <Creatives>
+        <Creative id="5499" sequence="1" adId="2447223">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="loaded"><![CDATA[https://example.com/tracking/wrapper?param=loaded]]></Tracking>
+            </TrackingEvents>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </Wrapper>
+    <InLine>
+      <AdSystem version="1">iabtechlab</AdSystem>
+      <Error><![CDATA[https://example.com/error]]></Error>
+      <Impression id="Impression-ID"><![CDATA[https://example.com/track/impression]]></Impression>
+      <Pricing model="cpm" currency="USD">
+        <![CDATA[ 27.00 ]]>
+      </Pricing>
+      <AdServingId>a532d16d-4d7f-4440-bd29-2ec0e693fc82</AdServingId>
+      <AdTitle>iabtechlab video ad</AdTitle>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">American Cuisine</Category>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">Guitar</Category>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">Vegan</Category>
+      <Creatives>
+        <Creative id="5480" sequence="1" adId="2447226">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="loaded"><![CDATA[https://example.com/tracking/loaded?param=[PLAYERSTATE]]]></Tracking>
+              <Tracking event="closeLinear"><![CDATA[https://example.com/tracking/closeLinear?param=playerExpand]]></Tracking>
+              <Tracking event="playerExpand"><![CDATA[https://example.com/tracking/playerExpand?param=playerExpand]]></Tracking>
+              <Tracking event="playerCollapse"><![CDATA[https://example.com/tracking/playerCollapse?param=playerCollapse]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://example.com/tracking/pause?param=pause]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://example.com/tracking/resume?param=resume]]></Tracking>
+              <Tracking event="progress" offset="00:00:02"><![CDATA[http://example.com/tracking/progress-10]]></Tracking>
+              <Tracking event="progress" offset="50%"><![CDATA[http://example.com/tracking/progress-10]]></Tracking>
+
+              <Tracking event="start"><![CDATA[https://example.com/tracking/start?param=[TIMESTAMP]]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://example.com/tracking/firstQuartile?param=[TIMESTP]]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://example.com/tracking/midpoint?param1=[TIMESTAMP]&amp;param2=[CACHEBUSTING]]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://example.com/tracking/thirdQuartile?param=[ASSETURI]]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://example.com/tracking/complete?param=[CONTENTPLAYHEAD]]]></Tracking>
+            </TrackingEvents>
+            <Duration>00:00:16</Duration>
+            <MediaFiles>
+              <MediaFile id="5241" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]>
+              </MediaFile>
+              <MediaFile id="5244" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-mid-resolution.mp4]]>
+              </MediaFile>
+              <MediaFile id="5246" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-low-resolution.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough id="blog">
+                <![CDATA[https://iabtechlab.com]]>
+              </ClickThrough>
+            </VideoClicks>
+          </Linear>
+          <UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
+          <UniversalAdId idRegistry="FOO-ID">6666465</UniversalAdId>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad id="20009" sequence="2" conditionalAd="false">
+    <InLine>
+      <AdSystem version="1">iabtechlab1</AdSystem>
+      <Error><![CDATA[https://example.com/error]]></Error>
+      <Impression id="Impression-IDs"><![CDATA[https://example.com/track/impression1]]></Impression>
+      <Pricing model="cpm" currency="USD">
+        <![CDATA[ 25.00 ]]>
+      </Pricing>
+      <AdServingId>a532d16d-4d7f-4440-bd29-2ec0e693fc83</AdServingId>
+      <AdTitle>iabtechlab3 video ad</AdTitle>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">American Cuisine1</Category>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">Guitar1</Category>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">Vegan1</Category>
+      <Creatives>
+        <Creative id="5481" sequence="1" adId="2447227">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="loaded"><![CDATA[https://example.com/tracking/loaded_1?param=[PLAYERSTATE]]]></Tracking>
+              <Tracking event="closeLinear"><![CDATA[https://example.com/tracking/closeLinear_1?param=playerExpand]]></Tracking>
+              <Tracking event="playerExpand"><![CDATA[https://example.com/tracking/playerExpand_1?param=playerExpand]]></Tracking>
+              <Tracking event="playerCollapse"><![CDATA[https://example.com/tracking/playerCollapse_1?param=playerCollapse]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://example.com/tracking/pause_1?param=pause]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://example.com/tracking/resume_1?param=resume]]></Tracking>
+              <Tracking event="progress" offset="00:00:02"><![CDATA[http://example.com/tracking/progress-10_1]]></Tracking>
+              <Tracking event="progress" offset="50%"><![CDATA[http://example.com/tracking/progress-10_1]]></Tracking>
+
+              <Tracking event="start"><![CDATA[https://example.com/tracking/start_1?param=[TIMESTAMP]]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://example.com/tracking/firstQuartile_1?param=[TIMESTP]]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://example.com/tracking/midpoint_1?param1=[TIMESTAMP]&amp;param2=[CACHEBUSTING]]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://example.com/tracking/thirdQuartile_1?param=[ASSETURI]]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://example.com/tracking/complete_1?param=[CONTENTPLAYHEAD]]]></Tracking>
+            </TrackingEvents>
+            <Duration>00:00:16</Duration>
+            <MediaFiles>
+              <MediaFile id="5247" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]>
+              </MediaFile>
+              <MediaFile id="5248" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-mid-resolution.mp4]]>
+              </MediaFile>
+              <MediaFile id="5249" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-low-resolution.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough id="blog">
+                <![CDATA[https://iabtechlab.com]]>
+              </ClickThrough>
+            </VideoClicks>
+          </Linear>
+          <UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
+          <UniversalAdId idRegistry="FOO-ID">6666465</UniversalAdId>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad id="200010" sequence="2" conditionalAd="false">
+    <InLine>
+      <AdSystem version="1">iabtechlab1</AdSystem>
+      <Error><![CDATA[https://example.com/error]]></Error>
+      <Impression id="Impression-IDs"><![CDATA[https://example.com/track/impression1]]></Impression>
+      <Pricing model="cpm" currency="USD">
+        <![CDATA[ 28.00 ]]>
+      </Pricing>
+      <AdServingId>a532d16d-4d7f-4440-bd29-2ec0e693fc84</AdServingId>
+      <AdTitle>iabtechlab3 video ad</AdTitle>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">American Cuisine2</Category>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">Guitar2</Category>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">Vegan2</Category>
+      <Creatives>
+        <Creative id="5482" sequence="1" adId="2447228">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="loaded"><![CDATA[https://example.com/tracking/loaded_2?param=[PLAYERSTATE]]]></Tracking>
+              <Tracking event="closeLinear"><![CDATA[https://example.com/tracking/closeLinear_2?param=playerExpand]]></Tracking>
+              <Tracking event="playerExpand"><![CDATA[https://example.com/tracking/playerExpand_2?param=playerExpand]]></Tracking>
+              <Tracking event="playerCollapse"><![CDATA[https://example.com/tracking/playerCollapse_2?param=playerCollapse]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://example.com/tracking/pause_2?param=pause]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://example.com/tracking/resume_2?param=resume]]></Tracking>
+              <Tracking event="progress" offset="00:00:02"><![CDATA[http://example.com/tracking/progress-10_2]]></Tracking>
+              <Tracking event="progress" offset="50%"><![CDATA[http://example.com/tracking/progress-10_2]]></Tracking>
+
+              <Tracking event="start"><![CDATA[https://example.com/tracking/start_2?param=[TIMESTAMP]&param=[APPBUNDLE]&param=[PAGEURL]&param=[DOMAIN]]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://example.com/tracking/firstQuartile_2?param=[TIMESTP]]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://example.com/tracking/midpoint_2?param1=[TIMESTAMP]&amp;param2=[CACHEBUSTING]]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://example.com/tracking/thirdQuartile_2?param=[ASSETURI]]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://example.com/tracking/complete_2?param=[CONTENTPLAYHEAD]]]></Tracking>
+            </TrackingEvents>
+            <Duration>00:00:16</Duration>
+            <MediaFiles>
+              <MediaFile id="5247" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]>
+              </MediaFile>
+              <MediaFile id="5248" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-mid-resolution.mp4]]>
+              </MediaFile>
+              <MediaFile id="5249" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-low-resolution.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough id="blog">
+                <![CDATA[https://iabtechlab.com]]>
+              </ClickThrough>
+            </VideoClicks>
+          </Linear>
+          <UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
+          <UniversalAdId idRegistry="FOO-ID">6666465</UniversalAdId>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad id="200011" sequence="2" conditionalAd="false">
+    <InLine>
+      <AdSystem version="1">iabtechlab1</AdSystem>
+      <Error><![CDATA[https://example.com/error]]></Error>
+      <Impression id="Impression-IDs"><![CDATA[https://example.com/track/impression1]]></Impression>
+      <Pricing model="cpm" currency="USD">
+        <![CDATA[ 7.00 ]]>
+      </Pricing>
+      <AdServingId>a532d16d-4d7f-4440-bd29-2ec0e693fc85</AdServingId>
+      <AdTitle>iabtechlab3 video ad</AdTitle>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">American Cuisine3</Category>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">Guitar3</Category>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">Vegan3</Category>
+      <Creatives>
+        <Creative id="5483" sequence="1" adId="2447229">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="loaded"><![CDATA[https://example.com/tracking/loaded_3?param=[PLAYERSTATE]]]></Tracking>
+              <Tracking event="closeLinear"><![CDATA[https://example.com/tracking/closeLinear_3?param=playerExpand]]></Tracking>
+              <Tracking event="playerExpand"><![CDATA[https://example.com/tracking/playerExpand_3?param=playerExpand]]></Tracking>
+              <Tracking event="playerCollapse"><![CDATA[https://example.com/tracking/playerCollapse_3?param=playerCollapse]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://example.com/tracking/pause_3?param=pause]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://example.com/tracking/resume_3?param=resume]]></Tracking>
+              <Tracking event="progress" offset="00:00:02"><![CDATA[http://example.com/tracking/progress-10_3]]></Tracking>
+              <Tracking event="progress" offset="50%"><![CDATA[http://example.com/tracking/progress-10_3]]></Tracking>
+
+              <Tracking event="start"><![CDATA[https://example.com/tracking/start_3?param=[TIMESTAMP]]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://example.com/tracking/firstQuartile_3?param=[TIMESTP]]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://example.com/tracking/midpoint_3?param1=[TIMESTAMP]&amp;param2=[CACHEBUSTING]]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://example.com/tracking/thirdQuartile_3?param=[ASSETURI]]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://example.com/tracking/complete_3?param=[CONTENTPLAYHEAD]]]></Tracking>
+            </TrackingEvents>
+            <Duration>00:00:16</Duration>
+            <MediaFiles>
+              <MediaFile id="5247" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]>
+              </MediaFile>
+              <MediaFile id="5248" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-mid-resolution.mp4]]>
+              </MediaFile>
+              <MediaFile id="5249" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-low-resolution.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough id="blog">
+                <![CDATA[https://iabtechlab.com]]>
+              </ClickThrough>
+            </VideoClicks>
+          </Linear>
+          <UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
+          <UniversalAdId idRegistry="FOO-ID">6666465</UniversalAdId>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad id="20010" sequence="1" conditionalAd="false">
+    <Wrapper followAdditionalWrappers="0" allowMultipleAds="1" fallbackOnNoAd="0">
+      <AdSystem version="4.0">iabtechlab</AdSystem>
+      <Pricing model="cpm" currency="USD">
+        <![CDATA[ 20.00 ]]>
+      </Pricing>
+      <Error><![CDATA[https://example.com/error]]></Error>
+      <Impression id="Impression-ID"><![CDATA[https://example.com/track/impression]]></Impression>
+      <ViewableImpression id="1543">
+        <Viewable>
+          <![CDATA[https://search.iabtechlab.com/error?errcode=102&imprid=s5-ea2f7f298e28c0c98374491aec3dfeb1&ts=1243]]>
+        </Viewable>
+        <NotViewable>
+          <![CDATA[https://search.iabtechlab.com/error?errcode=102&imprid=s5-ea2f7f298e28c0c98374491aec3dfeb1&ts=1243]]>
+        </NotViewable>
+        <ViewUndetermined>
+          <![CDATA[https://search.iabtechlab.com/error?errcode=102&imprid=s5-ea2f7f298e28c0c98374491aec3dfeb1&ts=1243]]>
+        </ViewUndetermined>
+      </ViewableImpression>
+      <Creatives>
+        <Creative id="5489" sequence="1" adId="2447221">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://example.com/tracking/start]]></Tracking>
+              <Tracking event="progress" offset="00:00:10"><![CDATA[http://example.com/tracking/progress-10]]></Tracking>
+            </TrackingEvents>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <VASTAdTagURI>
+        <![CDATA[https://raw.githubusercontent.com/InteractiveAdvertisingBureau/VAST_Samples/master/VAST%204.0%20Samples/Inline_Companion_Tag-test.xml]]>
+      </VASTAdTagURI>
+    </Wrapper>
+  </Ad>
+</VAST>
