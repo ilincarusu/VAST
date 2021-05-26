@@ -80,19 +80,19 @@
                   <![CDATA[http://example.com/tracking/progress-10]]>
                 </Tracking>
                 <Tracking event="start">
-                  <![CDATA[https://example.com/tracking/start?param=[TIMESTAMP]]]>
+                  <![CDATA[https://example.com/tracking/start?param=[PLAYERSTATE]]]>
                 </Tracking>
                 <Tracking event="firstQuartile">
-                  <![CDATA[https://example.com/tracking/firstQuartile?param=[ADPLAYHEAD]]]>
+                  <![CDATA[https://example.com/tracking/firstQuartile?param=[PLAYERSIZE]]]>
                 </Tracking>
                 <Tracking event="midpoint">
-                  <![CDATA[https://example.com/tracking/midpoint?param1=[TIMESTAMP]&amp;param2=[CACHEBUSTING]]]>
+                  <![CDATA[https://example.com/tracking/midpoint?param1=[ADSERVINGID]&amp;param2=[CONTENTID]]]>
                 </Tracking>
                 <Tracking event="thirdQuartile">
-                  <![CDATA[https://example.com/tracking/thirdQuartile?param=[ASSETURI]]]>
+                  <![CDATA[https://example.com/tracking/thirdQuartile?param=[INVENTORYSTATE]]]>
                 </Tracking>
                 <Tracking event="complete">
-                  <![CDATA[https://example.com/tracking/complete?param=[ADPLAYHEAD]]]>
+                  <![CDATA[https://example.com/tracking/complete?param=[PODSEQUENCE]]]>
                 </Tracking>
             </TrackingEvents>
             <Duration>00:00:16</Duration>
