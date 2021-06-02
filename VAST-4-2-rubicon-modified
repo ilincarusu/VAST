@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <VAST
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.2" xsi:noNamespaceSchemaLocation="vast.xsd">
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:noNamespaceSchemaLocation="vast.xsd">
 <Ad id="4314204">
 <Wrapper>
 <AdSystem version="1">RubiconProject</AdSystem>
