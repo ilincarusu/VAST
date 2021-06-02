@@ -20,7 +20,7 @@
         </Creative>
       </Creatives>
       <VASTAdTagURI>
-        <![CDATA[https://raw.githubusercontent.com/ilincarusu/VAST/master/wrapper_tag_test_redirect]]>
+        <![CDATA[https://raw.githubusercontent.com/ilincarusu/VAST/master/wrapper_tag_test_redirect?param=[IFA]]]>
       </VASTAdTagURI>
     </Wrapper>
   </Ad>
