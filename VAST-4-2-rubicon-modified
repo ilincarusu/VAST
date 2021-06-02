@@ -1,4 +1,4 @@
-"<?xml version=""4.2""?>
+<?xml version=""4.2""?>
 <VAST
 xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" version=""3.0"" xsi:noNamespaceSchemaLocation=""vast.xsd"">
 <Ad id=""4314204"">
@@ -116,4 +116,4 @@ xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" version=""3.0"" xsi:noNa
 </Extensions>
 </Wrapper>
 </Ad>
-</VAST>"
+</VAST>
