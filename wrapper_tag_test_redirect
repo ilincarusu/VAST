@@ -20,16 +20,16 @@
                <Linear>
                   <TrackingEvents>
                      <Tracking event="start" >
-                        <![CDATA[https://example.com/tracking/start?param=[DOMAIN1111]]]>
+                        <![CDATA[https://example.com/tracking/start?param=[DOMAIN]]]>
                      </Tracking>
                      <Tracking event="progress" offset="00:00:02">
-                        <![CDATA[http://example.com/tracking/progress-10?param=[DOMAIN2222]]]>
+                        <![CDATA[http://example.com/tracking/progress-10?param=[DOMAIN]]]>
                      </Tracking>
                      <Tracking event="firstQuartile">
-                        <![CDATA[https://example.com/tracking/firstQuartile?param=[APPBUNDLE333]]]>
+                        <![CDATA[https://example.com/tracking/firstQuartile?param=[APPBUNDLE]]]>
                      </Tracking>
                      <Tracking event="midpoint">
-                        <![CDATA[https://example.com/tracking/midpoint?param=[PAGEURL4444]]]>
+                        <![CDATA[https://example.com/tracking/midpoint?param=[PAGEURL]]]>
                      </Tracking>
                      <Tracking event="thirdQuartile">
                         <![CDATA[https://example.com/tracking/thirdQuartile?param=[PAGEURL]]]>
@@ -131,7 +131,7 @@
       <InLine>
          <AdSystem version="1.0">iabtechlab</AdSystem>
          <Error>
-            <![CDATA[https://example.com/error?errorCode=[ERRORCODE33]]]>
+            <![CDATA[https://example.com/error?errorCode=[ERRORCODE]]]>
          </Error>
          <Extensions>
             <Extension type="iab-Count">
